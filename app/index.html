@@ -8,11 +8,11 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- endbuild -->
   </head>
   <body ng-app="angularfireSlackApp">
@@ -48,6 +48,8 @@
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="app.js"></script>
+    <script src="auth/auth.controller.js"></script>
+    <script src="auth/auth.service.js"></script>
     <!-- endbuild -->
 </body>
 </html>
