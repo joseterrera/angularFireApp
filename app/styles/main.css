@@ -179,6 +179,7 @@ body {
 .message-pane .message-wrap {
   position:relative;
   margin-top:15px;
+  margin-left: 200px;
 }
 
 .message-pane .message-wrap .user-pic {
@@ -206,5 +207,10 @@ body {
   font-size:10px;
   margin-left: 300px;
 }
+
+.form-control {
+  left: 200px;
+}
+
 
 
